@@ -49,6 +49,6 @@ graph.add_conditional_edges(
 )
 
 
-app=graph.compile()
+app= graph.compile()
 result = app.invoke({"name": "hammad", "age": 24})
 print(result)
