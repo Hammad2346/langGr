@@ -41,7 +41,7 @@ graph.add_edge("happy_first_node","happy_second_node")
 graph.add_edge("happy_second_node",END)
 graph.add_edge("sad_second_node",END)
 
-graph.add_conditional_edges( 
+graph.add_conditional_edges(
     "router",
     decider_node,
     {"happy":"happy_first_node",
